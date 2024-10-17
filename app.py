@@ -7,7 +7,7 @@ def run():
     model = joblib.load(open('model.joblib','rb'))
 
     st.title("Lab 10.2, Sentiment Analysis Using Streamlit")
-    st.text("Basic app to detect the sentiment of text.")
+    st.text("Don't try to confuse me!.")
     st.text("")
     userinput = st.text_input('Enter text below, then click the Predict button.', placeholder='Input text HERE')
     st.text("")
